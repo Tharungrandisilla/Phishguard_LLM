@@ -1,0 +1,32 @@
+# Raw email data
+data/raw_eml/
+
+# All datasets
+data/datasets/
+data/*.csv
+
+# Models and cache
+data/models/
+data/domain_cache/
+data/phishing_detector.db
+data/phishguard.db
+
+# Large file formats
+*.safetensors
+*.bin
+*.pkl
+*.pt
+*.h5
+*.onnx
+*.csv
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+venv/
+.env
+
+# OS
+.DS_Store
+Thumbs.db
